@@ -1,0 +1,13 @@
+# 统一换行符：脚本在 Linux 下运行，强制 LF，避免 CRLF 导致 shebang 解析失败
+* text=auto
+*.sh  text eol=lf
+*.pl  text eol=lf
+*.py  text eol=lf
+*.ko.txt text eol=lf
+
+# 二进制文件不做换行符转换
+*.docx binary
+*.png binary
+*.jpg binary
+*.gz  binary
+*.dmnd binary

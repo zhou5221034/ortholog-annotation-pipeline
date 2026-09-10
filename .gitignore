@@ -1,0 +1,34 @@
+# 输出文件（运行流程时生成，不入库）
+out.cds
+out.pep
+out.longest.pep
+mapid
+*.m8
+*.solar
+*.solar.cor
+*.solar.cor.idAdd
+*.rbh
+config
+runBest.sh
+blast_shell.sh
+GO.universal.tsv
+KEGG.universal.tsv
+*.filted
+
+# 参考数据库（体积过大，不入库）
+*.dmnd
+eggNOG-mapper/data/
+eggnog-mapper-master/
+
+# 临时文件
+*.swp
+*.swo
+*~
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
